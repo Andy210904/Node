@@ -11,6 +11,7 @@ const server = http.createServer((req, res) => {
     }
     // If the URL does not match any known routes, send an error message
     res.end(`<h1> OOPS ERROR </h1> <a href="/"> Back Home </a>`);
+    console.log("Hello world");
 });
 
 server.listen(3000)

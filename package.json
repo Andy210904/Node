@@ -3,13 +3,18 @@
   "version": "1.0.0",
   "main": "1_first.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon http.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "node": "file:"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
